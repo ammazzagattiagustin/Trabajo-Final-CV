@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(220, 219, 219, 0.532);
+  color: rgba(2, 2, 81, 0.892);
+  line-height: 1.6;
+  font-family: "Quicksand", sans-serif;
+  padding: 0 1.5em;
+}
+
+.logo {
+  text-align: center;
+  font-size: 3em;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- GOOGLE FONTs -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- ANIMATE CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/apple-icon-114x114.png"
+    />
+    <link rel="stylesheet" href="./css/contacto.css" />
+    <title>Trabajo Final</title>
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="logo mt-5 mb-5">Contacto</h1>
+
+      <div class="contact-wrapper animated bounceInUp">
+        <div class="contact-form">
+          <h3>Contacto</h3>
+          <form action="">
+            <p>
+              <label>Nombre</label>
+              <input type="text" name="fullname" />
+            </p>
+            <p>
+              <label>Apellido</label>
+              <input type="text" name="fullname" />
+            </p>
+            <p>
+              <label>Email</label>
+              <input type="email" name="email" />
+            </p>
+            <p>
+              <label>Número Tel</label>
+              <input type="tel" name="phone" />
+            </p>
+            <p class="block">
+              <label>Mensaje</label>
+              <textarea name="message" rows="3"></textarea>
+            </p>
+
+            <p class="block">
+              <a
+                href="contador.html"
+                class="btn btn-danger btn-sm active"
+                aria-current="page"
+                >Enviar</a
+              >
+            </p>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h4>Más Información</h4>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Córdoba, Argentina.</li>
+            <li><i class="fas fa-phone"></i> (54) 9 123456789</li>
+            <li>
+              <i class="fas fa-envelope-open-text"></i>
+              agus.ammazzagatti@gmail.com
+            </li>
+          </ul>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.753535895365!2d-94.83821057243482!3d39.85735601365375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c01dbf05861857%3A0x1121ba1cad8a4181!2s742%20Evergreen%20Terrace%2C%20St%20Joseph%2C%20MO%2064505%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1680289717240!5m2!1ses!2sar"
+            width="350"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <button class="btn btn-secondary" onclick="to_index()">Volver</button>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
